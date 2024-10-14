@@ -26,7 +26,7 @@ To track how deals are financed, we introduced the DealPaymentBreakdown table. T
 Since every deal comes with its risks, the DealRiskFactors table captures various risks associated with each merger, creating a one-to-many relationship with M&A Deals. Each company may also have debt details that impact or are impacted by the deal, represented in the CompanyDebtDetails table, which has a one-to-many relationship with the Companies table.
 
 Finally, many companies have a history of previous mergers, and this historical information is stored in the HistoricalMergers table, which tracks past deals and has a one-to-many relationship with the Companies table. This model provides a comprehensive view of how a PE firm can manage and analyze multiple companies, their financials, and the intricacies of each M&A deal.
-<img width="711" alt="projectdatamodel" src="https://github.com/user-attachments/assets/238c26c6-c12d-4769-a6c4-3e5ea7d43a55">
+![image](https://github.com/user-attachments/assets/0cadc4cc-2d00-4769-8236-1fb46253167c)
 
 
 ## Data Dictionary
