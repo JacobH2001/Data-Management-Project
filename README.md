@@ -6,7 +6,7 @@
 ## Team Members:
 #### 1) Aidan Hanson - @D3rpCoder
 #### 2) Jacob Hartline - @JacobH2001
-#### 3) Avery Blalock -
+#### 3) Avery Blalock - @AveB25
 #### 4) Christian Rajkowski - @christianrajkowski
 
 ## Project Description:
