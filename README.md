@@ -81,8 +81,12 @@
 #### Query 9: 
 #### This SQL query retrieves details about mergers with high-risk factors, including the merger name, risk severity, mitigation plans, and actual revenue. It joins the M&ADeals, DealRiskFactors, and MergerPerformance tables, filtering for deals categorized as high risk.
 
+![image](https://github.com/user-attachments/assets/b7323f29-bb87-4bcc-ba54-5215eb1f41d4)
+
 #### Query 10: 
 #### This Query identifies certain companies that are held back by regulatory approvals so that a manager knows how to make an informed decision based on how the company they may be looking at for a merger is looking in terms of their regulatory approvals. 
+
+![image](https://github.com/user-attachments/assets/d405827a-6b7e-412b-9a03-2bb322c5fdd7)
 
 
 
