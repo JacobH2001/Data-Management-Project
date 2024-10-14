@@ -46,6 +46,48 @@
 ## Queries:
 <img width="472" alt="querychecklist" src="https://github.com/user-attachments/assets/5ea1f101-8c04-45eb-8a8d-b4c48c7e1dc6">
 
+#### Query 1:
+#### This query identifies companies with positive net income, ranked in descending order by their profitability. It helps managers focus on high-performing companies that are already profitable. It also breaks down the companies by industry, which can be used to assess whether certain industries are outperforming others, guiding strategic investments or partnerships. Managers can prioritize acquisitions, investments, or collaborations with these financially healthy companies to reduce the risk associated with poor financial performance.
+
+
+#### Query 2:
+#### This query provides insights into shareholders whose deals yield high returns on investment (ROI), particularly for deals worth more than $1 million. It helps managers identify successful shareholders with a track record of profitable deals. Knowing which shareholders have strong performance can guide managers in seeking strategic partnerships or capital from investors with proven success in M&A. The use of a regular expression to filter by shareholder names can reveal patterns in certain segments, helping managers focus on a subset of shareholders for further business opportunities.
+
+
+#### Query 3:
+#### This query identifies companies with operating margins between 10% and 20%, offering a snapshot of companies with reasonable profitability. These companies are likely performing well but still have room for operational efficiency improvements. Managers can target these companies for acquisitions, partnerships, or investments to capitalize on their steady profitability while exploring ways to enhance margins through cost-saving initiatives or synergies. Understanding the operating margins across companies helps managers benchmark their own company's performance and identify areas for improvement relative to industry standards.
+
+
+#### Query 4:
+#### Show companies with the highest to lowest debt ratios: This query will be useful for providing insight into which companies have more favorable debt to revenue ratios. A manager may use this to decide whether or not their company wants to go through a merger with a particular company.
+
+
+#### Query 5:
+#### How well revenue grows after a merger: This query will be useful when comparing the revenue listed before and after a merger takes place between companies.
+
+
+#### Query 6:
+#### Calculate the total deal value of all mergers for companies in a specific industry: This query provides a detailed overview of mergers and acquisitions within a specific industry, like "Technology." Understanding the volume of M&A activity in a given sector helps managers gauge the competitive landscape. Managers can also leverage the output from this query to communicate with investors about the state of the industry and the company’s positioning within it.
+
+
+#### Query 7: 
+#### This query is retrieves a list of companies along with their significant shareholders (those with more than 10% ownership) and the respective ownership percentages. This can be useful for understanding the ownership structure of companies, particularly identifying major stakeholders in a company.
+
+
+#### Query 8:
+#### This SQL query aims to analyze mergers and acquisitions (M&A) involving companies by identifying those with multiple risk factors. It retrieves the names of companies, the associated M&A deal names, and counts the number of risk factors linked to each deal. By joining the relevant tables—Companies, Companies_has_M&ADeals, M&ADeals, and DealRiskFactors—the query aggregates data to show only those companies and deals that have more than one risk factor, highlighting potential concerns in the M&A process.
+
+
+#### Query 9: 
+#### Query to identify deals with high financial risk the mitigation plans in place, and the actual revenue performance post-deal.
+
+
+#### Query 10: 
+#### This Query identifies certain companies that are held back by regulatory approvals so that a manager knows how to make an informed decision based on how the company they may be looking at for a merger is looking in terms of their regulatory approvals. 
+
+
+
+
 
 
 
