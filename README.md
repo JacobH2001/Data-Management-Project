@@ -59,11 +59,11 @@
 
 
 #### Query 4:
-#### Show companies with the highest to lowest debt ratios: This query will be useful for providing insight into which companies have more favorable debt to revenue ratios. A manager may use this to decide whether or not their company wants to go through a merger with a particular company.
+#### This query shows companies with the highest to lowest debt ratios: This query will be useful for providing insight into which companies have more favorable debt to revenue ratios. A manager may use this to decide whether or not their company wants to go through a merger with a particular company.
 
 
 #### Query 5:
-#### How well revenue grows after a merger: This query will be useful when comparing the revenue listed before and after a merger takes place between companies.
+#### This SQL query fetches company names, financial years, current revenues, and previous year's revenues for companies involved in M&A. It joins the Company and CompanyFinancials tables and uses a subquery to get the prior year's revenue, filtering for companies with M&A deals. Results are ordered by company name and financial year.
 
 
 #### Query 6:
@@ -79,8 +79,7 @@
 
 
 #### Query 9: 
-#### Query to identify deals with high financial risk the mitigation plans in place, and the actual revenue performance post-deal.
-
+#### This SQL query retrieves details about mergers with high-risk factors, including the merger name, risk severity, mitigation plans, and actual revenue. It joins the M&ADeals, DealRiskFactors, and MergerPerformance tables, filtering for deals categorized as high risk.
 
 #### Query 10: 
 #### This Query identifies certain companies that are held back by regulatory approvals so that a manager knows how to make an informed decision based on how the company they may be looking at for a merger is looking in terms of their regulatory approvals. 
