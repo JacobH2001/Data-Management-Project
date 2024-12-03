@@ -86,7 +86,7 @@ INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearF
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (83, 'Healthcare Visionaries UK', 'Healthcare', 'Biotech', 'UK', 1977, 22);
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (84, 'AI Retail Innovators', 'Retail', 'AI', 'UK', 1860, 57);
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (85, 'Biotech Health Experts', 'Healthcare', 'Biotech', 'USA', 1889, 10);
-INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (86, 'Retail Innovators India', 'Retail', 'Banking', 'India', 2012, 'None');
+INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (86, 'Retail Innovators India', 'Retail', 'Banking', 'India', 2012, null);
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (87, 'Retail Ecom Visionaries', 'Retail', 'E-commerce', 'Germany', 2006, 27);
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (88, 'Banking Innovators UK', 'Healthcare', 'Banking', 'UK', 1876, 7);
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (89, 'Tech Biotech Germany', 'Tech', 'Biotech', 'Germany', 2001, 63);
