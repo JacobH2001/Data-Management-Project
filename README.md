@@ -60,9 +60,9 @@
 <img width="244" alt="finalq2 2" src="https://github.com/user-attachments/assets/75060800-d9c5-4553-8212-f71119dbe9d3">
 
 #### Query 3:
-#### This query identifies companies with operating margins between 10% and 20%, offering a snapshot of companies with reasonable profitability. These companies are likely performing well but still have room for operational efficiency improvements. Managers can target these companies for acquisitions, partnerships, or investments to capitalize on their steady profitability while exploring ways to enhance margins through cost-saving initiatives or synergies. Understanding the operating margins across companies helps managers benchmark their own company's performance and identify areas for improvement relative to industry standards.
+#### We use the ForecastRevenue procedure to predict the revenue on Merger_1 and we set the growth factor to 0.10
 
-![image](https://github.com/user-attachments/assets/5da1cd0e-89ac-4187-84d0-42c6173f431d)
+![image](https://github.com/user-attachments/assets/03cd13df-0be4-4fa0-bf5f-301a3037ad9d)
 
 
 #### Query 4:
@@ -75,40 +75,3 @@
 #### This SQL query fetches company names, financial years, current revenues, and previous year's revenues for companies involved in M&A. It joins the Company and CompanyFinancials tables and uses a subquery to get the prior year's revenue, filtering for companies with M&A deals. Results are ordered by company name and financial year.
 
 ![image](https://github.com/user-attachments/assets/1b4123dc-0252-4749-bc2b-14f87a2280d5)
-
-#### Query 6:
-#### Calculate the total deal value of all mergers for companies in a specific industry: This query provides a detailed overview of mergers and acquisitions within a specific industry, like "Technology." Understanding the volume of M&A activity in a given sector helps managers gauge the competitive landscape. Managers can also leverage the output from this query to communicate with investors about the state of the industry and the company’s positioning within it.
-
-![image](https://github.com/user-attachments/assets/51e08244-4e8f-4640-bf6a-d749f74848d5)
-
-#### Query 7: 
-#### This query is retrieves a list of companies along with their significant shareholders (those with more than 10% ownership) and the respective ownership percentages. This can be useful for understanding the ownership structure of companies, particularly identifying major stakeholders in a company.
-
-![image](https://github.com/user-attachments/assets/1fed41af-5836-48dd-bcd4-f7138006dbbb)
-
-#### Query 8:
-#### This SQL query aims to analyze mergers and acquisitions (M&A) involving companies by identifying those with multiple risk factors. It retrieves the names of companies, the associated M&A deal names, and counts the number of risk factors linked to each deal. By joining the relevant tables—Companies, Companies_has_M&ADeals, M&ADeals, and DealRiskFactors—the query aggregates data to show only those companies and deals that have more than one risk factor, highlighting potential concerns in the M&A process.
-
-![image](https://github.com/user-attachments/assets/ceb25647-97d9-4245-b8cd-e4441cd14e1b)
-
-#### Query 9: 
-#### This SQL query retrieves details about mergers with high-risk factors, including the merger name, risk severity, mitigation plans, and actual revenue. It joins the M&ADeals, DealRiskFactors, and MergerPerformance tables, filtering for deals categorized as high risk.
-
-![image](https://github.com/user-attachments/assets/81ac7b63-d384-4dc8-9a81-528bfa91e02a)
-
-
-#### Query 10: 
-#### This Query identifies certain companies that are held back by regulatory approvals so that a manager knows how to make an informed decision based on how the company they may be looking at for a merger is looking in terms of their regulatory approvals. 
-
-![image](https://github.com/user-attachments/assets/d405827a-6b7e-412b-9a03-2bb322c5fdd7)
-
-
-
-
-
-
-
-
-
-
-
