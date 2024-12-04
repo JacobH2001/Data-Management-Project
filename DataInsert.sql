@@ -1,6 +1,4 @@
-use cs_ach35338;
-
-## Company Insert
+## Company
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (1, 'Tech Solutions Inc.', 'Tech', 'Biotech', 'Germany', 1887, null);
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (2, 'Global Health Corp.', 'Healthcare', 'E-commerce', 'India', 1950, 1);
 INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearFounded, idParentCompany) VALUES (3, 'Finance World LLC', 'Finance', 'E-commerce', 'USA', 1915, 1);
@@ -104,106 +102,106 @@ INSERT INTO Company (idCompany, CompanyName, Industry, Sector, HQLocation, YearF
 
 
 #MnADeals
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (1, 'Merger_1', 'Completed', 2015, 12, 58, 61, 11);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (2, 'Merger_2', 'Initiated', 2021, 48, 38, 98, 82);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (3, 'Merger_3', 'Completed', 2012, 92, 50, 8, 34);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (4, 'Merger_4', 'Initiated', 2017, 82, 41, 64, 90);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (5, 'Merger_5', 'Initiated', 2021, 44, 22, 59, 31);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (6, 'Merger_6', 'Completed', 2022, 13, 70, 79, 21);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (7, 'Merger_7', 'Initiated', 2020, 91, 45, 54, 32);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (8, 'Merger_8', 'Pending', 2023, 77, 72, 42, 86);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (9, 'Merger_9', 'Pending', 2022, 87, 88, 86, 100);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (10, 'Merger_10', 'Completed', 2017, 77, 14, 86, 94);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (11, 'Merger_11', 'Completed', 2011, 73, 26, 10, 93);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (12, 'Merger_12', 'Initiated', 2018, 3, 58, 75, 56);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (13, 'Merger_13', 'Initiated', 2019, 56, 39, 20, 18);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (14, 'Merger_14', 'Initiated', 2015, 75, 67, 22, 54);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (15, 'Merger_15', 'Pending', 2012, 43, 73, 56, 98);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (16, 'Merger_16', 'Pending', 2014, 37, 97, 77, 41);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (17, 'Merger_17', 'Initiated', 2014, 71, 40, 98, 91);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (18, 'Merger_18', 'Completed', 2019, 36, 13, 14, 57);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (19, 'Merger_19', 'Initiated', 2017, 57, 28, 1, 41);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (20, 'Merger_20', 'Initiated', 2014, 46, 28, 26, 29);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (21, 'Merger_21', 'Completed', 2022, 45, 91, 59, 28);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (22, 'Merger_22', 'Completed', 2015, 12, 93, 43, 73);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (23, 'Merger_23', 'Completed', 2016, 36, 70, 7, 44);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (24, 'Merger_24', 'Completed', 2012, 97, 73, 29, 80);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (25, 'Merger_25', 'Completed', 2019, 44, 45, 73, 14);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (26, 'Merger_26', 'Initiated', 2010, 70, 86, 80, 28);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (27, 'Merger_27', 'Pending', 2023, 20, 36, 68, 51);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (28, 'Merger_28', 'Initiated', 2020, 54, 39, 34, 93);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (29, 'Merger_29', 'Initiated', 2010, 60, 43, 9, 67);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (30, 'Merger_30', 'Initiated', 2011, 8, 35, 1, 84);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (31, 'Merger_31', 'Completed', 2021, 88, 58, 88, 18);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (32, 'Merger_32', 'Initiated', 2012, 16, 99, 36, 21);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (33, 'Merger_33', 'Initiated', 2019, 4, 37, 7, 63);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (34, 'Merger_34', 'Initiated', 2017, 43, 18, 4, 57);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (35, 'Merger_35', 'Pending', 2010, 50, 95, 92, 41);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (36, 'Merger_36', 'Initiated', 2021, 74, 85, 63, 51);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (37, 'Merger_37', 'Initiated', 2019, 53, 10, 5, 45);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (38, 'Merger_38', 'Completed', 2021, 65, 78, 72, 15);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (39, 'Merger_39', 'Completed', 2011, 47, 100, 12, 88);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (40, 'Merger_40', 'Pending', 2022, 90, 43, 95, 23);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (41, 'Merger_41', 'Initiated', 2020, 68, 63, 45, 54);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (42, 'Merger_42', 'Completed', 2023, 66, 91, 92, 45);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (43, 'Merger_43', 'Completed', 2017, 53, 33, 27, 61);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (44, 'Merger_44', 'Pending', 2016, 64, 10, 93, 39);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (45, 'Merger_45', 'Initiated', 2015, 93, 26, 80, 35);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (46, 'Merger_46', 'Initiated', 2020, 56, 6, 48, 45);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (47, 'Merger_47', 'Initiated', 2012, 77, 36, 4, 22);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (48, 'Merger_48', 'Pending', 2015, 97, 37, 50, 25);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (49, 'Merger_49', 'Initiated', 2016, 95, 82, 99, 13);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (50, 'Merger_50', 'Initiated', 2014, 80, 9, 63, 30);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (51, 'Merger_51', 'Initiated', 2012, 72, 72, 50, 91);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (52, 'Merger_52', 'Initiated', 2021, 47, 6, 60, 63);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (53, 'Merger_53', 'Pending', 2021, 63, 23, 78, 42);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (54, 'Merger_54', 'Pending', 2017, 42, 18, 28, 66);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (55, 'Merger_55', 'Initiated', 2022, 25, 48, 85, 9);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (56, 'Merger_56', 'Pending', 2010, 50, 100, 38, 16);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (57, 'Merger_57', 'Pending', 2016, 32, 77, 45, 15);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (58, 'Merger_58', 'Pending', 2012, 100, 49, 20, 18);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (59, 'Merger_59', 'Completed', 2010, 70, 29, 9, 90);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (60, 'Merger_60', 'Pending', 2017, 94, 43, 10, 5);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (61, 'Merger_61', 'Completed', 2020, 51, 21, 50, 55);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (62, 'Merger_62', 'Completed', 2019, 12, 37, 88, 98);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (63, 'Merger_63', 'Pending', 2022, 44, 15, 53, 36);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (64, 'Merger_64', 'Initiated', 2020, 35, 9, 44, 54);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (65, 'Merger_65', 'Completed', 2019, 7, 97, 32, 58);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (66, 'Merger_66', 'Pending', 2020, 97, 11, 19, 25);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (67, 'Merger_67', 'Initiated', 2015, 46, 18, 46, 63);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (68, 'Merger_68', 'Initiated', 2023, 91, 15, 68, 22);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (69, 'Merger_69', 'Completed', 2011, 74, 27, 35, 33);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (70, 'Merger_70', 'Initiated', 2020, 46, 51, 98, 65);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (71, 'Merger_71', 'Completed', 2010, 51, 23, 8, 68);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (72, 'Merger_72', 'Initiated', 2017, 49, 58, 93, 22);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (73, 'Merger_73', 'Initiated', 2012, 35, 11, 5, 49);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (74, 'Merger_74', 'Initiated', 2015, 51, 54, 50, 44);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (75, 'Merger_75', 'Completed', 2019, 53, 83, 31, 5);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (76, 'Merger_76', 'Pending', 2016, 8, 93, 52, 13);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (77, 'Merger_77', 'Completed', 2021, 71, 16, 33, 81);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (78, 'Merger_78', 'Completed', 2011, 46, 11, 33, 7);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (79, 'Merger_79', 'Pending', 2022, 51, 81, 98, 92);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (80, 'Merger_80', 'Initiated', 2010, 32, 95, 2, 89);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (81, 'Merger_81', 'Pending', 2022, 32, 81, 88, 61);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (82, 'Merger_82', 'Initiated', 2015, 11, 6, 14, 21);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (83, 'Merger_83', 'Initiated', 2023, 11, 49, 57, 10);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (84, 'Merger_84', 'Initiated', 2013, 76, 21, 53, 85);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (85, 'Merger_85', 'Initiated', 2022, 92, 19, 89, 27);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (86, 'Merger_86', 'Initiated', 2020, 28, 95, 90, 19);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (87, 'Merger_87', 'Pending', 2017, 15, 63, 32, 3);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (88, 'Merger_88', 'Pending', 2017, 91, 35, 3, 96);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (89, 'Merger_89', 'Pending', 2019, 19, 31, 82, 36);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (90, 'Merger_90', 'Pending', 2013, 81, 100, 32, 92);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (91, 'Merger_91', 'Pending', 2023, 97, 99, 84, 51);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (92, 'Merger_92', 'Pending', 2010, 1, 62, 3, 43);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (93, 'Merger_93', 'Completed', 2011, 86, 61, 76, 23);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (94, 'Merger_94', 'Completed', 2018, 100, 37, 61, 26);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (95, 'Merger_95', 'Completed', 2017, 35, 26, 75, 15);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (96, 'Merger_96', 'Completed', 2023, 64, 31, 63, 67);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (97, 'Merger_97', 'Pending', 2020, 89, 84, 42, 57);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (98, 'Merger_98', 'Completed', 2020, 58, 59, 52, 52);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (99, 'Merger_99', 'Pending', 2010, 55, 60, 22, 90);
-INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (100, 'Merger_100', 'Completed', 2016, 28, 58, 31, 93);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (1, 'Merger_1', 'Completed', '2015-01-01', 12, 58, 61, 11);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (2, 'Merger_2', 'Initiated', '2021-02-02', 48, 38, 98, 82);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (3, 'Merger_3', 'Completed', '2012-03-03', 92, 50, 8, 34);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (4, 'Merger_4', 'Initiated', '2017-04-04', 82, 41, 64, 90);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (5, 'Merger_5', 'Initiated', '2021-05-05', 44, 22, 59, 31);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (6, 'Merger_6', 'Completed', '2022-06-06', 13, 70, 79, 21);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (7, 'Merger_7', 'Initiated', '2020-07-07', 91, 45, 54, 32);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (8, 'Merger_8', 'Pending', '2023-08-08', 77, 72, 42, 86);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (9, 'Merger_9', 'Pending', '2022-09-09', 87, 88, 86, 100);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (10, 'Merger_10', 'Completed', '2017-10-10', 77, 14, 86, 94);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (11, 'Merger_11', 'Completed', '2011-11-11', 73, 26, 10, 93);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (12, 'Merger_12', 'Initiated', '2018-12-12', 3, 58, 75, 56);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (13, 'Merger_13', 'Initiated', '2019-01-01', 56, 39, 20, 18);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (14, 'Merger_14', 'Initiated', '2015-02-02', 75, 67, 22, 54);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (15, 'Merger_15', 'Pending', '2012-03-03', 43, 73, 56, 98);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (16, 'Merger_16', 'Pending', '2014-04-04', 37, 97, 77, 41);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (17, 'Merger_17', 'Initiated', '2014-05-05', 71, 40, 98, 91);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (18, 'Merger_18', 'Completed', '2019-06-06', 36, 13, 14, 57);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (19, 'Merger_19', 'Initiated', '2017-07-07', 57, 28, 1, 41);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (20, 'Merger_20', 'Initiated', '2014-08-08', 46, 28, 26, 29);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (21, 'Merger_21', 'Completed', '2022-09-09', 45, 91, 59, 28);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (22, 'Merger_22', 'Completed', '2015-10-10', 12, 93, 43, 73);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (23, 'Merger_23', 'Completed', '2016-11-11', 36, 70, 7, 44);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (24, 'Merger_24', 'Completed', '2012-12-12', 97, 73, 29, 80);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (25, 'Merger_25', 'Completed', '2019-01-01', 44, 45, 73, 14);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (26, 'Merger_26', 'Initiated', '2010-02-02', 70, 86, 80, 28);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (27, 'Merger_27', 'Pending', '2023-03-03', 20, 36, 68, 51);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (28, 'Merger_28', 'Initiated', '2020-04-04', 54, 39, 34, 93);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (29, 'Merger_29', 'Initiated', '2010-05-05', 60, 43, 9, 67);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (30, 'Merger_30', 'Initiated', '2011-06-06', 8, 35, 1, 84);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (31, 'Merger_31', 'Completed', '2021-07-07', 88, 58, 88, 18);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (32, 'Merger_32', 'Initiated', '2012-08-08', 16, 99, 36, 21);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (33, 'Merger_33', 'Initiated', '2019-09-09', 4, 37, 7, 63);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (34, 'Merger_34', 'Initiated', '2017-10-10', 43, 18, 4, 57);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (35, 'Merger_35', 'Pending', '2010-11-11', 50, 95, 92, 41);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (36, 'Merger_36', 'Initiated', '2021-12-12', 74, 85, 63, 51);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (37, 'Merger_37', 'Initiated', '2019-01-01', 53, 10, 5, 45);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (38, 'Merger_38', 'Completed', '2021-02-02', 65, 78, 72, 15);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (39, 'Merger_39', 'Completed', '2011-03-03', 47, 100, 12, 88);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (40, 'Merger_40', 'Pending', '2022-04-04', 90, 43, 95, 23);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (41, 'Merger_41', 'Initiated', '2020-05-05', 68, 63, 45, 54);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (42, 'Merger_42', 'Completed', '2023-06-06', 66, 91, 92, 45);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (43, 'Merger_43', 'Completed', '2017-07-07', 53, 33, 27, 61);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (44, 'Merger_44', 'Pending', '2016-08-08', 64, 10, 93, 39);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (45, 'Merger_45', 'Initiated', '2015-09-09', 93, 26, 80, 35);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (46, 'Merger_46', 'Initiated', '2020-10-10', 56, 6, 48, 45);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (47, 'Merger_47', 'Initiated', '2012-11-11', 77, 36, 4, 22);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (48, 'Merger_48', 'Pending', '2015-12-12', 97, 37, 50, 25);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (49, 'Merger_49', 'Initiated', '2016-01-01', 95, 82, 99, 13);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (50, 'Merger_50', 'Initiated', '2014-02-02', 80, 9, 63, 30);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (51, 'Merger_51', 'Initiated', '2012-03-03', 72, 72, 50, 91);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (52, 'Merger_52', 'Initiated', '2021-04-04', 47, 6, 60, 63);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (53, 'Merger_53', 'Pending', '2021-05-05', 63, 23, 78, 42);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (54, 'Merger_54', 'Pending', '2017-06-06', 42, 18, 28, 66);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (55, 'Merger_55', 'Initiated', '2022-07-07', 25, 48, 85, 9);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (56, 'Merger_56', 'Pending', '2010-08-08', 50, 100, 38, 16);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (57, 'Merger_57', 'Pending', '2016-09-09', 32, 77, 45, 15);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (58, 'Merger_58', 'Pending', '2012-10-10', 100, 49, 20, 18);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (59, 'Merger_59', 'Completed', '2010-11-11', 70, 29, 9, 90);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (60, 'Merger_60', 'Pending', '2017-12-12', 94, 43, 10, 5);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (61, 'Merger_61', 'Completed', '2020-01-01', 51, 21, 50, 55);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (62, 'Merger_62', 'Completed', '2019-02-02', 12, 37, 88, 98);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (63, 'Merger_63', 'Pending', '2022-03-03', 44, 15, 53, 36);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (64, 'Merger_64', 'Initiated', '2020-04-04', 35, 9, 44, 54);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (65, 'Merger_65', 'Completed', '2019-05-05', 7, 97, 32, 58);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (66, 'Merger_66', 'Pending', '2020-06-06', 97, 11, 19, 25);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (67, 'Merger_67', 'Initiated', '2015-07-07', 46, 18, 46, 63);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (68, 'Merger_68', 'Initiated', '2023-08-08', 91, 15, 68, 22);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (69, 'Merger_69', 'Completed', '2011-09-09', 74, 27, 35, 33);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (70, 'Merger_70', 'Initiated', '2020-10-10', 46, 51, 98, 65);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (71, 'Merger_71', 'Completed', '2010-11-11', 51, 23, 8, 68);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (72, 'Merger_72', 'Initiated', '2017-12-12', 49, 58, 93, 22);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (73, 'Merger_73', 'Initiated', '2012-01-01', 35, 11, 5, 49);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (74, 'Merger_74', 'Initiated', '2015-02-02', 51, 54, 50, 44);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (75, 'Merger_75', 'Completed', '2019-03-03', 53, 83, 31, 5);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (76, 'Merger_76', 'Pending', '2016-04-04', 8, 93, 52, 13);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (77, 'Merger_77', 'Completed', '2021-05-05', 71, 16, 33, 81);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (78, 'Merger_78', 'Completed', '2011-06-06', 46, 11, 33, 7);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (79, 'Merger_79', 'Pending', '2022-07-07', 51, 81, 98, 92);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (80, 'Merger_80', 'Initiated', '2010-08-08', 32, 95, 2, 89);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (81, 'Merger_81', 'Pending', '2022-09-09', 32, 81, 88, 61);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (82, 'Merger_82', 'Initiated', '2015-10-10', 11, 6, 14, 21);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (83, 'Merger_83', 'Initiated', '2023-11-11', 11, 49, 57, 10);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (84, 'Merger_84', 'Initiated', '2013-12-12', 76, 21, 53, 85);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (85, 'Merger_85', 'Initiated', '2022-01-01', 92, 19, 89, 27);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (86, 'Merger_86', 'Initiated', '2020-02-02', 28, 95, 90, 19);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (87, 'Merger_87', 'Pending', '2017-03-03', 15, 63, 32, 3);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (88, 'Merger_88', 'Pending', '2017-04-04', 91, 35, 3, 96);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (89, 'Merger_89', 'Pending', '2019-05-05', 19, 31, 82, 36);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (90, 'Merger_90', 'Pending', '2013-06-06', 81, 100, 32, 92);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (91, 'Merger_91', 'Pending', '2023-07-07', 97, 99, 84, 51);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (92, 'Merger_92', 'Pending', '2010-08-08', 1, 62, 3, 43);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (93, 'Merger_93', 'Completed', '2011-09-09', 86, 61, 76, 23);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (94, 'Merger_94', 'Completed', '2018-10-10', 100, 37, 61, 26);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (95, 'Merger_95', 'Completed', '2017-11-11', 35, 26, 75, 15);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (96, 'Merger_96', 'Completed', '2023-12-12', 64, 31, 63, 67);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (97, 'Merger_97', 'Pending', '2020-01-01', 89, 84, 42, 57);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (98, 'Merger_98', 'Completed', '2020-02-02', 58, 59, 52, 52);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (99, 'Merger_99', 'Pending', '2010-03-03', 55, 60, 22, 90);
+INSERT INTO MnADeals (idDeal, MergerName, dealStage, dealDate, idCompany, idValuation, idShareholder, idPerformance) VALUES (100, 'Merger_100', 'Completed', '2016-04-04', 28, 58, 31, 93);
 
 
 
@@ -412,108 +410,117 @@ INSERT INTO CompanyDebtDetails (idDebt, debtType, debtAmount, maturityDate, idCo
 INSERT INTO CompanyDebtDetails (idDebt, debtType, debtAmount, maturityDate, idCompany) VALUES (100, 'Loan', 463329860.49, '2024-11-13', 9);
 
 #Company Financials
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (1, 2023, 9315796270.26, 319094390.88, 204123311.68, 2);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (2, 2023, 3490116160.17, 490541964.26, 79561177.44, 100);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (3, 2023, 1798313322.49, 891488759.24, 347422236.21, 100);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (4, 2023, 8414660477.85, 261725299.91, 191662198.23, 41);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (5, 2023, 4168491765.17, 540504639.15, 273430618.51, 27);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (6, 2023, 324064560.81, 668295216.58, 120052024.48, 79);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (7, 2023, 4741423714.73, 777574621.74, 83865158.81, 80);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (8, 2023, 1118582458.96, 275575523.81, 462692757.25, 17);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (9, 2023, 7847248265.61, 314031534.64, 185977444.25, 30);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (10, 2023, 9629589286.08, 619662768.67, 456216426.58, 70);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (11, 2023, 6524958300.27, 102576462.2, 441865786.22, 81);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (12, 2023, 8002830624.41, 747578641.18, 117064417.24, 81);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (13, 2023, 3218113605.68, 22032062.94, -92290391.6, 36);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (14, 2023, 5950324808.9, 816358845.68, 428078736.83, 6);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (15, 2023, 1088909091.38, 53249226.51, 154059898.31, 36);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (16, 2023, 4501263021.1, 292936610.46, 320581304.71, 14);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (17, 2023, 3316313162.08, 880216800.77, 416315241.09, 79);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (18, 2023, 3347347424.49, 973834867.98, -610807.04, 4);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (19, 2023, 1771129278.66, 307714846.53, -48971967.92, 45);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (20, 2023, 566315731.09, 367769744.29, -67353596.96, 61);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (21, 2023, 1580547645.25, 408829551.31, 281801764.2, 84);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (22, 2023, 3717002213.51, 536588377.38, 439873931.0, 6);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (23, 2023, 4279503457.68, 133296491.47, 396661832.27, 37);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (24, 2023, 2263293786.99, 751892821.21, 9553315.25, 60);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (25, 2023, 256373050.63, 332112762.34, 112199728.26, 81);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (26, 2023, 2072228129.53, 49255098.75, 128311372.03, 46);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (27, 2023, 5742878500.88, 731518646.72, 195866278.21, 80);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (28, 2023, 2959190926.16, 896488968.9, 241899504.07, 68);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (29, 2023, 3941276267.84, 659451519.02, 45055891.17, 50);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (30, 2023, 6465395157.89, 253046092.71, 271673064.77, 75);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (31, 2023, 5678584223.56, 464120509.04, 39793964.76, 23);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (32, 2023, 9899568436.37, 82913979.93, 128075814.9, 77);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (33, 2023, 6890536260.66, 620991674.69, 289568022.53, 62);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (34, 2023, 1334545346.36, 391321060.72, 258711655.89, 24);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (35, 2023, 3671216687.95, 632648416.27, 97223625.06, 25);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (36, 2023, 3877139387.97, 618505028.36, 310942485.76, 55);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (37, 2023, 1743918026.61, 806297928.12, 404535730.93, 10);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (38, 2023, 4600376553.28, 223938066.43, 278677969.39, 42);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (39, 2023, 1306430267.35, 373212870.52, 195795983.72, 43);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (40, 2023, 2031803803.64, 714215032.38, -86717666.25, 41);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (41, 2023, 8658884499.8, 539467458.95, 430121542.14, 86);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (42, 2023, 7911744612.84, 38972258.07, 37043922.24, 33);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (43, 2023, 7938599523.93, 445341671.18, 303963653.43, 56);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (44, 2023, 6179557858.32, 190400956.33, 150730882.44, 30);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (45, 2023, 9938119128.41, 847114150.69, 41749590.09, 1);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (46, 2023, 245739582.17, 655701398.01, 455674630.83, 7);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (47, 2023, 6642733087.05, 624902366.95, 139134602.1, 18);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (48, 2023, 5387836655.54, 553373259.02, 56138115.37, 84);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (49, 2023, 4454558110.56, 837819751.7, 419463640.65, 78);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (50, 2023, 3836224604.1, 256964259.62, -95600525.15, 44);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (51, 2023, 8337742239.54, 903314861.8, 60158926.38, 50);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (52, 2023, 768989182.39, 589490257.39, 120084211.16, 75);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (53, 2023, 6821741782.7, 97077391.67, 49169053.98, 97);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (54, 2023, 1913842412.44, 476821280.23, 236054813.4, 76);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (55, 2023, 9284641768.75, 106430015.9, 388835375.15, 24);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (56, 2023, 4477485647.51, 461127606.33, 269011963.49, 9);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (57, 2023, 4699598307.73, 796591324.46, 157772924.6, 27);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (58, 2023, 9895931598.36, 89676008.81, 374868975.65, 80);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (59, 2023, 2395360565.3, 896536531.82, -81002772.86, 32);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (60, 2023, 7453584689.56, 654662146.73, -57317977.91, 82);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (61, 2023, 9187648923.74, 415898952.33, 391006423.93, 56);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (62, 2023, 3164576702.88, 382826473.74, 378202632.44, 65);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (63, 2023, 8948076944.94, 512749677.25, -36369435.48, 60);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (64, 2023, 751420209.19, 894194959.15, 13295461.82, 29);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (65, 2023, 9764589895.87, 479719592.47, 470705063.22, 77);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (66, 2023, 7635018740.8, 804373611.01, 318762612.13, 20);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (67, 2023, 8214741203.54, 469223873.92, 359570197.62, 91);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (68, 2023, 7095667045.33, 202808540.67, 474378230.3, 10);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (69, 2023, 1267825670.49, 908317876.32, 351542709.53, 15);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (70, 2023, 8378882183.36, 136287802.64, -95236543.43, 26);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (71, 2023, 9374937078.69, 495647946.02, 60750759.13, 58);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (72, 2023, 647445991.36, 683612522.06, 316431828.6, 35);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (73, 2023, 6991590673.82, 842683313.33, 403072273.51, 57);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (74, 2023, 3509915041.45, 622444545.69, 69700674.03, 100);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (75, 2023, 5722733130.76, 361244899.06, -78356684.11, 81);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (76, 2023, 1692187026.89, 708295780.1, 359245279.72, 51);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (77, 2023, 3456271404.52, 888910246.01, 247834940.34, 87);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (78, 2023, 5797071926.13, 952062805.49, 178976544.58, 91);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (79, 2023, 2976443955.68, 298352077.54, 119236006.79, 83);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (80, 2023, 1484012605.85, 163290049.23, 383097031.94, 33);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (81, 2023, 6978302756.39, 639401837.71, 223997964.47, 26);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (82, 2023, 8030108157.68, 576461431.92, 462693206.23, 88);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (83, 2023, 7400073754.74, 474593121.18, 287815951.37, 57);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (84, 2023, 2463634801.07, 467881021.79, 91690018.04, 46);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (85, 2023, 1664135200.75, 629309374.44, 70517361.87, 95);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (86, 2023, 5606968454.53, 839360681.32, 202381384.72, 58);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (87, 2023, 9177315621.57, 397427025.48, 454839595.51, 92);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (88, 2023, 8274630539.1, 393541167.71, -27819829.66, 14);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (89, 2023, 7893277557.52, 908293033.04, 230012440.08, 93);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (90, 2023, 7363487309.83, 234509803.28, 161042280.97, 47);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (91, 2023, 5747348382.28, 186617451.35, -41922304.7, 52);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (92, 2023, 5191726630.34, 193375675.91, -66736730.35, 12);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (93, 2023, 5666983784.75, 191765516.85, 128696415.82, 69);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (94, 2023, 4934331073.23, 182815681.31, 273692720.78, 90);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (95, 2023, 5609199517.67, 807535988.25, 474057959.73, 48);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (96, 2023, 7463467435.11, 187626203.8, -54042224.38, 6);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (97, 2023, 817894396.91, 918067908.25, 108010593.81, 81);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (98, 2023, 452525956.05, 458066915.19, 108881245.69, 43);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (99, 2023, 9999784256.44, 996099283.73, -91270746.42, 27);
-INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal) VALUES (100, 2023, 2003326695.33, 852632859.05, 102168154.13, 44);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(1, 2023, 1000500000.00, 500025000.00, 300015000.00, 1, 1),
+(2, 2023, 1001000000.00, 500050000.00, 300030000.00, 2, 2),
+(3, 2023, 1001500000.00, 500075000.00, 300045000.00, 3, 3),
+(4, 2023, 1002000000.00, 500100000.00, 300060000.00, 4, 4),
+(5, 2023, 1002500000.00, 500125000.00, 300075000.00, 5, 5),
+(6, 2023, 1003000000.00, 500150000.00, 300090000.00, 6, 6),
+(7, 2023, 1003500000.00, 500175000.00, 300105000.00, 7, 7),
+(8, 2023, 1004000000.00, 500200000.00, 300120000.00, 8, 8),
+(9, 2023, 1004500000.00, 500225000.00, 300135000.00, 9, 9),
+(10, 2023, 1005000000.00, 500250000.00, 300150000.00, 10, 10);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(11, 2023, 1005500000.00, 500275000.00, 300165000.00, 11, 11),
+(12, 2023, 1006000000.00, 500300000.00, 300180000.00, 12, 12),
+(13, 2023, 1006500000.00, 500325000.00, 300195000.00, 13, 13),
+(14, 2023, 1007000000.00, 500350000.00, 300210000.00, 14, 14),
+(15, 2023, 1007500000.00, 500375000.00, 300225000.00, 15, 15),
+(16, 2023, 1008000000.00, 500400000.00, 300240000.00, 16, 16),
+(17, 2023, 1008500000.00, 500425000.00, 300255000.00, 17, 17),
+(18, 2023, 1009000000.00, 500450000.00, 300270000.00, 18, 18),
+(19, 2023, 1009500000.00, 500475000.00, 300285000.00, 19, 19),
+(20, 2023, 1010000000.00, 500500000.00, 300300000.00, 20, 20);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(21, 2023, 1010500000.00, 500525000.00, 300315000.00, 21, 21),
+(22, 2023, 1011000000.00, 500550000.00, 300330000.00, 22, 22),
+(23, 2023, 1011500000.00, 500575000.00, 300345000.00, 23, 23),
+(24, 2023, 1012000000.00, 500600000.00, 300360000.00, 24, 24),
+(25, 2023, 1012500000.00, 500625000.00, 300375000.00, 25, 25),
+(26, 2023, 1013000000.00, 500650000.00, 300390000.00, 26, 26),
+(27, 2023, 1013500000.00, 500675000.00, 300405000.00, 27, 27),
+(28, 2023, 1014000000.00, 500700000.00, 300420000.00, 28, 28),
+(29, 2023, 1014500000.00, 500725000.00, 300435000.00, 29, 29),
+(30, 2023, 1015000000.00, 500750000.00, 300450000.00, 30, 30);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(31, 2023, 1015500000.00, 500775000.00, 300465000.00, 31, 31),
+(32, 2023, 1016000000.00, 500800000.00, 300480000.00, 32, 32),
+(33, 2023, 1016500000.00, 500825000.00, 300495000.00, 33, 33),
+(34, 2023, 1017000000.00, 500850000.00, 300510000.00, 34, 34),
+(35, 2023, 1017500000.00, 500875000.00, 300525000.00, 35, 35),
+(36, 2023, 1018000000.00, 500900000.00, 300540000.00, 36, 36),
+(37, 2023, 1018500000.00, 500925000.00, 300555000.00, 37, 37),
+(38, 2023, 1019000000.00, 500950000.00, 300570000.00, 38, 38),
+(39, 2023, 1019500000.00, 500975000.00, 300585000.00, 39, 39),
+(40, 2023, 1020000000.00, 501000000.00, 300600000.00, 40, 40);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(41, 2023, 1020500000.00, 501025000.00, 300615000.00, 41, 41),
+(42, 2023, 1021000000.00, 501050000.00, 300630000.00, 42, 42),
+(43, 2023, 1021500000.00, 501075000.00, 300645000.00, 43, 43),
+(44, 2023, 1022000000.00, 501100000.00, 300660000.00, 44, 44),
+(45, 2023, 1022500000.00, 501125000.00, 300675000.00, 45, 45),
+(46, 2023, 1023000000.00, 501150000.00, 300690000.00, 46, 46),
+(47, 2023, 1023500000.00, 501175000.00, 300705000.00, 47, 47),
+(48, 2023, 1024000000.00, 501200000.00, 300720000.00, 48, 48),
+(49, 2023, 1024500000.00, 501225000.00, 300735000.00, 49, 49),
+(50, 2023, 1025000000.00, 501250000.00, 300750000.00, 50, 50);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(51, 2023, 1025500000.00, 501275000.00, 300765000.00, 51, 51),
+(52, 2023, 1026000000.00, 501300000.00, 300780000.00, 52, 52),
+(53, 2023, 1026500000.00, 501325000.00, 300795000.00, 53, 53),
+(54, 2023, 1027000000.00, 501350000.00, 300810000.00, 54, 54),
+(55, 2023, 1027500000.00, 501375000.00, 300825000.00, 55, 55),
+(56, 2023, 1028000000.00, 501400000.00, 300840000.00, 56, 56),
+(57, 2023, 1028500000.00, 501425000.00, 300855000.00, 57, 57),
+(58, 2023, 1029000000.00, 501450000.00, 300870000.00, 58, 58),
+(59, 2023, 1029500000.00, 501475000.00, 300885000.00, 59, 59),
+(60, 2023, 1030000000.00, 501500000.00, 300900000.00, 60, 60);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(61, 2023, 1030500000.00, 501525000.00, 300915000.00, 61, 61),
+(62, 2023, 1031000000.00, 501550000.00, 300930000.00, 62, 62),
+(63, 2023, 1031500000.00, 501575000.00, 300945000.00, 63, 63),
+(64, 2023, 1032000000.00, 501600000.00, 300960000.00, 64, 64),
+(65, 2023, 1032500000.00, 501625000.00, 300975000.00, 65, 65),
+(66, 2023, 1033000000.00, 501650000.00, 300990000.00, 66, 66),
+(67, 2023, 1033500000.00, 501675000.00, 301005000.00, 67, 67),
+(68, 2023, 1034000000.00, 501700000.00, 301020000.00, 68, 68),
+(69, 2023, 1034500000.00, 501725000.00, 301035000.00, 69, 69),
+(70, 2023, 1035000000.00, 501750000.00, 301050000.00, 70, 70);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(71, 2023, 1035500000.00, 501775000.00, 301065000.00, 71, 71),
+(72, 2023, 1036000000.00, 501800000.00, 301080000.00, 72, 72),
+(73, 2023, 1036500000.00, 501825000.00, 301095000.00, 73, 73),
+(74, 2023, 1037000000.00, 501850000.00, 301110000.00, 74, 74),
+(75, 2023, 1037500000.00, 501875000.00, 301125000.00, 75, 75),
+(76, 2023, 1038000000.00, 501900000.00, 301140000.00, 76, 76),
+(77, 2023, 1038500000.00, 501925000.00, 301155000.00, 77, 77),
+(78, 2023, 1039000000.00, 501950000.00, 301170000.00, 78, 78),
+(79, 2023, 1039500000.00, 501975000.00, 301185000.00, 79, 79),
+(80, 2023, 1040000000.00, 502000000.00, 301200000.00, 80, 80);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(81, 2023, 1040500000.00, 502025000.00, 301215000.00, 81, 81),
+(82, 2023, 1041000000.00, 502050000.00, 301230000.00, 82, 82),
+(83, 2023, 1041500000.00, 502075000.00, 301245000.00, 83, 83),
+(84, 2023, 1042000000.00, 502100000.00, 301260000.00, 84, 84),
+(85, 2023, 1042500000.00, 502125000.00, 301275000.00, 85, 85),
+(86, 2023, 1043000000.00, 502150000.00, 301290000.00, 86, 86),
+(87, 2023, 1043500000.00, 502175000.00, 301305000.00, 87, 87),
+(88, 2023, 1044000000.00, 502200000.00, 301320000.00, 88, 88),
+(89, 2023, 1044500000.00, 502225000.00, 301335000.00, 89, 89),
+(90, 2023, 1045000000.00, 502250000.00, 301350000.00, 90, 90);
+INSERT INTO CompanyFinancials (idFinancial, financialYear, Revenue, netIncome, EBITDA, idDeal, idCompany) VALUES
+(91, 2023, 1045500000.00, 502275000.00, 301365000.00, 91, 91),
+(92, 2023, 1046000000.00, 502300000.00, 301380000.00, 92, 92),
+(93, 2023, 1046500000.00, 502325000.00, 301395000.00, 93, 93),
+(94, 2023, 1047000000.00, 502350000.00, 301410000.00, 94, 94),
+(95, 2023, 1047500000.00, 502375000.00, 301425000.00, 95, 95),
+(96, 2023, 1048000000.00, 502400000.00, 301440000.00, 96, 96),
+(97, 2023, 1048500000.00, 502425000.00, 301455000.00, 97, 97),
+(98, 2023, 1049000000.00, 502450000.00, 301470000.00, 98, 98),
+(99, 2023, 1049500000.00, 502475000.00, 301485000.00, 99, 99),
+(100, 2023, 1050000000.00, 502500000.00, 301500000.00, 100, 100);
 
-select * from CompanyFinancials;
 
 # Deal Valuation Details
 INSERT INTO DealValuationDetails (idValuation, enterpriseValue, equityValue, valuationMethod) VALUES (1, 1554735676.28, 195202438.92, 'Precedent Transactions');
@@ -822,107 +829,118 @@ INSERT INTO DealPaymentBreakdown (idPayment, cashComponent, stockComponent, debt
 INSERT INTO DealPaymentBreakdown (idPayment, cashComponent, stockComponent, debtAssumption, idDeal) VALUES (100, 499737945.26, 86908483.66, 195020488.85, 95);
 
 
-#Risk insert
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (1, 'Market volatility', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (2, 'Regulatory compliance issues', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (3, 'Cybersecurity threats', 'High', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (4, 'Supply chain disruption', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (5, 'Operational inefficiencies', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (6, 'Economic downturn', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (7, 'Interest rate fluctuations', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (8, 'Exchange rate risks', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (9, 'Political instability', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (10, 'Data privacy concerns', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (11, 'Labor shortages', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (12, 'Natural disasters', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (13, 'Reputation damage', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (14, 'Technology obsolescence', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (15, 'Customer attrition', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (16, 'Competition pressures', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (17, 'Environmental compliance', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (18, 'Fraud and embezzlement', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (19, 'Legal disputes', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (20, 'Product recalls', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (21, 'Intellectual property theft', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (22, 'Energy price spikes', 'High', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (23, 'Credit risks', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (24, 'Contract disputes', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (25, 'Raw material shortages', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (26, 'Customer insolvency', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (27, 'Regulatory penalties', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (28, 'Insurance cost spikes', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (29, 'Vendor dependency', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (30, 'Product liability lawsuits', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (31, 'Pandemic-related disruptions', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (32, 'Logistics bottlenecks', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (33, 'Unethical supplier practices', 'Medium', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (34, 'Delayed product launches', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (35, 'Market demand shifts', 'Medium', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (36, 'Data breaches', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (37, 'Vendor reliability issues', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (38, 'Patent expirations', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (39, 'Defective components', 'Medium', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (40, 'Climate change impact', 'High', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (41, 'Disruption of critical utilities', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (42, 'Inconsistent cash flows', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (43, 'Increased competition', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (44, 'IT system failures', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (45, 'Customer dissatisfaction', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (46, 'Pricing pressure from competitors', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (47, 'Taxation policy changes', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (48, 'Intense market consolidation', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (49, 'Natural resource scarcity', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (50, 'Employee turnover', 'High', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (51, 'Workforce skill gaps', 'Medium', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (52, 'Environmental lawsuits', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (53, 'Accounting fraud', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (54, 'Insufficient inventory', 'Medium', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (55, 'Over-reliance on key customers', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (56, 'Currency devaluation', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (57, 'Uninsured property loss', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (58, 'Rising material costs', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (59, 'Consumer boycott', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (60, 'Unsecured debt risks', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (61, 'Deferred revenue recognition', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (62, 'Operational bottlenecks', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (63, 'Low employee engagement', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (64, 'Shifts in consumer behavior', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (65, 'International trade restrictions', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (66, 'Legal and regulatory changes', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (67, 'Poor infrastructure reliability', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (68, 'Loss of market share', 'High', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (69, 'Delays in supplier deliveries', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (70, 'Volatile commodity prices', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (71, 'High inventory holding costs', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (72, 'Uninsured cyber incidents', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (73, 'Production facility downtime', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (74, 'Counterfeit product risks', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (75, 'Global pandemic exposure', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (76, 'Dependence on a single market', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (77, 'Unstable supplier networks', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (78, 'Unanticipated warranty claims', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (79, 'Energy supply disruptions', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (80, 'Geopolitical conflicts', 'High', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (81, 'Limited market diversification', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (82, 'Product safety recalls', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (83, 'Unanticipated equipment failures', 'Low', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (84, 'Inadequate cash reserves', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (85, 'Intellectual property litigation', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (86, 'Inconsistent regulatory audits', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (87, 'High environmental remediation costs', 'High', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (88, 'Excessive operational downtime', 'Medium', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (89, 'Cost overruns on projects', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (90, 'Excessive fixed costs', 'Medium', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (91, 'Unsecured revenue streams', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (92, 'Volatile consumer preferences', 'Low', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (93, 'Over-reliance on digital platforms', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (94, 'Shifting labor market dynamics', 'Medium', 'Insurance');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (95, 'Supplier financial instability', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (96, 'Outdated operational technology', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (97, 'Intense regional competition', 'High', 'None');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (98, 'Disruptions in logistics networks', 'Medium', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (99, 'Seasonal demand fluctuations', 'Low', 'Hedge');
-INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan) VALUES (100, 'Rising insurance premiums', 'Low', 'Insurance');
+
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(1, 'Risk description 1', 'Medium', 'Mitigation plan 1', 1),
+(2, 'Risk description 2', 'Medium', 'Mitigation plan 2', 2),
+(3, 'Risk description 3', 'Medium', 'Mitigation plan 3', 3),
+(4, 'Risk description 4', 'Medium', 'Mitigation plan 4', 4),
+(5, 'Risk description 5', 'Medium', 'Mitigation plan 5', 5),
+(6, 'Risk description 6', 'Medium', 'Mitigation plan 6', 6),
+(7, 'Risk description 7', 'Medium', 'Mitigation plan 7', 7),
+(8, 'Risk description 8', 'Medium', 'Mitigation plan 8', 8),
+(9, 'Risk description 9', 'Medium', 'Mitigation plan 9', 9),
+(10, 'Risk description 10', 'Medium', 'Mitigation plan 10', 10);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(11, 'Risk description 11', 'Medium', 'Mitigation plan 11', 11),
+(12, 'Risk description 12', 'Medium', 'Mitigation plan 12', 12),
+(13, 'Risk description 13', 'Medium', 'Mitigation plan 13', 13),
+(14, 'Risk description 14', 'Medium', 'Mitigation plan 14', 14),
+(15, 'Risk description 15', 'Medium', 'Mitigation plan 15', 15),
+(16, 'Risk description 16', 'Medium', 'Mitigation plan 16', 16),
+(17, 'Risk description 17', 'Medium', 'Mitigation plan 17', 17),
+(18, 'Risk description 18', 'Medium', 'Mitigation plan 18', 18),
+(19, 'Risk description 19', 'Medium', 'Mitigation plan 19', 19),
+(20, 'Risk description 20', 'Medium', 'Mitigation plan 20', 20);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(21, 'Risk description 21', 'Medium', 'Mitigation plan 21', 21),
+(22, 'Risk description 22', 'Medium', 'Mitigation plan 22', 22),
+(23, 'Risk description 23', 'Medium', 'Mitigation plan 23', 23),
+(24, 'Risk description 24', 'Medium', 'Mitigation plan 24', 24),
+(25, 'Risk description 25', 'Medium', 'Mitigation plan 25', 25),
+(26, 'Risk description 26', 'Medium', 'Mitigation plan 26', 26),
+(27, 'Risk description 27', 'Medium', 'Mitigation plan 27', 27),
+(28, 'Risk description 28', 'Medium', 'Mitigation plan 28', 28),
+(29, 'Risk description 29', 'Medium', 'Mitigation plan 29', 29),
+(30, 'Risk description 30', 'Medium', 'Mitigation plan 30', 30);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(31, 'Risk description 31', 'Medium', 'Mitigation plan 31', 31),
+(32, 'Risk description 32', 'Medium', 'Mitigation plan 32', 32),
+(33, 'Risk description 33', 'Medium', 'Mitigation plan 33', 33),
+(34, 'Risk description 34', 'Medium', 'Mitigation plan 34', 34),
+(35, 'Risk description 35', 'Medium', 'Mitigation plan 35', 35),
+(36, 'Risk description 36', 'Medium', 'Mitigation plan 36', 36),
+(37, 'Risk description 37', 'Medium', 'Mitigation plan 37', 37),
+(38, 'Risk description 38', 'Medium', 'Mitigation plan 38', 38),
+(39, 'Risk description 39', 'Medium', 'Mitigation plan 39', 39),
+(40, 'Risk description 40', 'Medium', 'Mitigation plan 40', 40);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(41, 'Risk description 41', 'Medium', 'Mitigation plan 41', 41),
+(42, 'Risk description 42', 'Medium', 'Mitigation plan 42', 42),
+(43, 'Risk description 43', 'Medium', 'Mitigation plan 43', 43),
+(44, 'Risk description 44', 'Medium', 'Mitigation plan 44', 44),
+(45, 'Risk description 45', 'Medium', 'Mitigation plan 45', 45),
+(46, 'Risk description 46', 'Medium', 'Mitigation plan 46', 46),
+(47, 'Risk description 47', 'Medium', 'Mitigation plan 47', 47),
+(48, 'Risk description 48', 'Medium', 'Mitigation plan 48', 48),
+(49, 'Risk description 49', 'Medium', 'Mitigation plan 49', 49),
+(50, 'Risk description 50', 'Medium', 'Mitigation plan 50', 50);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(51, 'Risk description 51', 'Medium', 'Mitigation plan 51', 51),
+(52, 'Risk description 52', 'Medium', 'Mitigation plan 52', 52),
+(53, 'Risk description 53', 'Medium', 'Mitigation plan 53', 53),
+(54, 'Risk description 54', 'Medium', 'Mitigation plan 54', 54),
+(55, 'Risk description 55', 'Medium', 'Mitigation plan 55', 55),
+(56, 'Risk description 56', 'Medium', 'Mitigation plan 56', 56),
+(57, 'Risk description 57', 'Medium', 'Mitigation plan 57', 57),
+(58, 'Risk description 58', 'Medium', 'Mitigation plan 58', 58),
+(59, 'Risk description 59', 'Medium', 'Mitigation plan 59', 59),
+(60, 'Risk description 60', 'Medium', 'Mitigation plan 60', 60);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(61, 'Risk description 61', 'Medium', 'Mitigation plan 61', 61),
+(62, 'Risk description 62', 'Medium', 'Mitigation plan 62', 62),
+(63, 'Risk description 63', 'Medium', 'Mitigation plan 63', 63),
+(64, 'Risk description 64', 'Medium', 'Mitigation plan 64', 64),
+(65, 'Risk description 65', 'Medium', 'Mitigation plan 65', 65),
+(66, 'Risk description 66', 'Medium', 'Mitigation plan 66', 66),
+(67, 'Risk description 67', 'Medium', 'Mitigation plan 67', 67),
+(68, 'Risk description 68', 'Medium', 'Mitigation plan 68', 68),
+(69, 'Risk description 69', 'Medium', 'Mitigation plan 69', 69),
+(70, 'Risk description 70', 'Medium', 'Mitigation plan 70', 70);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(71, 'Risk description 71', 'Medium', 'Mitigation plan 71', 71),
+(72, 'Risk description 72', 'Medium', 'Mitigation plan 72', 72),
+(73, 'Risk description 73', 'Medium', 'Mitigation plan 73', 73),
+(74, 'Risk description 74', 'Medium', 'Mitigation plan 74', 74),
+(75, 'Risk description 75', 'Medium', 'Mitigation plan 75', 75),
+(76, 'Risk description 76', 'Medium', 'Mitigation plan 76', 76),
+(77, 'Risk description 77', 'Medium', 'Mitigation plan 77', 77),
+(78, 'Risk description 78', 'Medium', 'Mitigation plan 78', 78),
+(79, 'Risk description 79', 'Medium', 'Mitigation plan 79', 79),
+(80, 'Risk description 80', 'Medium', 'Mitigation plan 80', 80);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(81, 'Risk description 81', 'Medium', 'Mitigation plan 81', 81),
+(82, 'Risk description 82', 'Medium', 'Mitigation plan 82', 82),
+(83, 'Risk description 83', 'Medium', 'Mitigation plan 83', 83),
+(84, 'Risk description 84', 'Medium', 'Mitigation plan 84', 84),
+(85, 'Risk description 85', 'Medium', 'Mitigation plan 85', 85),
+(86, 'Risk description 86', 'Medium', 'Mitigation plan 86', 86),
+(87, 'Risk description 87', 'Medium', 'Mitigation plan 87', 87),
+(88, 'Risk description 88', 'Medium', 'Mitigation plan 88', 88),
+(89, 'Risk description 89', 'Medium', 'Mitigation plan 89', 89),
+(90, 'Risk description 90', 'Medium', 'Mitigation plan 90', 90);
+INSERT INTO DealRiskFactors (idRisk, riskDescription, riskSeverity, mitigationPlan, idDeal) VALUES
+(91, 'Risk description 91', 'Medium', 'Mitigation plan 91', 91),
+(92, 'Risk description 92', 'Medium', 'Mitigation plan 92', 92),
+(93, 'Risk description 93', 'Medium', 'Mitigation plan 93', 93),
+(94, 'Risk description 94', 'Medium', 'Mitigation plan 94', 94),
+(95, 'Risk description 95', 'Medium', 'Mitigation plan 95', 95),
+(96, 'Risk description 96', 'Medium', 'Mitigation plan 96', 96),
+(97, 'Risk description 97', 'Medium', 'Mitigation plan 97', 97),
+(98, 'Risk description 98', 'Medium', 'Mitigation plan 98', 98),
+(99, 'Risk description 99', 'Medium', 'Mitigation plan 99', 99),
+(100, 'Risk description 100', 'Medium', 'Mitigation plan 100', 100);
+
 
 # Shareholder Details
 INSERT INTO ShareholderDetails (idShareholder, shareholderName, ownershipPercentage, stakeType) VALUES (1, 'Shareholder_1', 13.97, 'Minority');
@@ -1025,6 +1043,7 @@ INSERT INTO ShareholderDetails (idShareholder, shareholderName, ownershipPercent
 INSERT INTO ShareholderDetails (idShareholder, shareholderName, ownershipPercentage, stakeType) VALUES (98, 'Shareholder_98', 25.76, 'Minority');
 INSERT INTO ShareholderDetails (idShareholder, shareholderName, ownershipPercentage, stakeType) VALUES (99, 'Shareholder_99', 12.47, 'Majority');
 INSERT INTO ShareholderDetails (idShareholder, shareholderName, ownershipPercentage, stakeType) VALUES (100, 'Shareholder_100', 16.19, 'Majority');
+
 
 # Merger Performance
 INSERT INTO MergerPerformance (idPerformance, projectedRevenue, actualRevenue, ROI) VALUES (1, 2096600586.37, 858737962.14, -0.16);
