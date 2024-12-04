@@ -72,7 +72,7 @@
 <img width="523" alt="finalq4 2" src="https://github.com/user-attachments/assets/fc6b52fc-b635-43cd-87bf-ce188cd24d53">
 
 #### Query 5:
-#### This SQL query fetches company names, financial years, current revenues, and previous year's revenues for companies involved in M&A. It joins the Company and CompanyFinancials tables and uses a subquery to get the prior year's revenue, filtering for companies with M&A deals. Results are ordered by company name and financial year.
+#### The DebtToRevenue view is designed to provide a clear financial analysis of companies by calculating their debt-to-revenue ratio. This view aggregates data from the Company, CompanyDebtDetails, and CompanyFinancials tables to compute three key metrics for each company: the total debt (TotalDebt), total revenue (TotalRevenue), and the debt-to-revenue ratio (DebtToRevenueRatio). The ratio is calculated by dividing the total debt by the total revenue, giving a measure of how much debt a company has relative to its earnings. The data is grouped by CompanyName, ensuring each row in the view corresponds to a specific company. Analysts can query the view to quickly assess the financial health and leverage of companies, with the results ordered by the debt-to-revenue ratio in descending order. This makes it easy to identify highly leveraged companies that may pose financial risks or require closer scrutiny in investment or operational decisions.
 
 ![image](https://github.com/user-attachments/assets/e9a73eff-c8d5-4dc1-88ff-a41084dd9bf8)
 
