@@ -74,4 +74,5 @@
 #### Query 5:
 #### This SQL query fetches company names, financial years, current revenues, and previous year's revenues for companies involved in M&A. It joins the Company and CompanyFinancials tables and uses a subquery to get the prior year's revenue, filtering for companies with M&A deals. Results are ordered by company name and financial year.
 
-![image](https://github.com/user-attachments/assets/1b4123dc-0252-4749-bc2b-14f87a2280d5)
+![image](https://github.com/user-attachments/assets/e9a73eff-c8d5-4dc1-88ff-a41084dd9bf8)
+
