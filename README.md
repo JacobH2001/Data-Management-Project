@@ -75,3 +75,16 @@
 
 ![image](https://github.com/user-attachments/assets/e9a73eff-c8d5-4dc1-88ff-a41084dd9bf8)
 
+
+## Tableau Visualizations
+
+### Visual 1
+![Visual1](https://github.com/user-attachments/assets/9fc7c910-6535-44c1-bf3f-8c2486ddb450)
+
+### Visual 2
+![Visual 2](https://github.com/user-attachments/assets/3c322723-94d3-4a08-9fea-37574410fa67)
+
+### Visual 3
+
+
+
