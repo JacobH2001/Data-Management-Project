@@ -60,9 +60,8 @@
 <img width="244" alt="finalq2 2" src="https://github.com/user-attachments/assets/75060800-d9c5-4553-8212-f71119dbe9d3">
 
 #### Query 3:
-#### We use the ForecastRevenue procedure to predict the revenue on Merger_1 and we set the growth factor to 0.10
+#### The ForecastRevenue stored procedure is designed to forecast future revenue for a specific merger or acquisition deal based on a given growth factor. The procedure takes two input parameters: the name of the deal (dealName) and the growth factor (growthFactor) expressed as a decimal percentage. It retrieves the actual revenue for the specified deal from the MergerPerformance table and calculates the forecasted revenue by applying the growth factor to the actual revenue. This is achieved through a multiplication operation where the actual revenue is increased by (1 + growthFactor). This stored procedure is particularly useful for scenario analysis, enabling decision-makers to estimate future financial performance based on different growth assumptions. For example, calling the procedure with a growthFactor of 0.10 (10%) for the deal 'Merger_1' provides the forecasted revenue if the revenue grows by 10%. The flexibility of specifying both the deal and the growth factor allows analysts to evaluate the potential revenue impact of various deals under different growth scenarios. By calling the procedure with specific deal names, such as 'Acquisition of Tech Innovations' or 'Merger with Green Energy', users can compare forecasted revenues across deals and prioritize opportunities with higher potential growth. This procedure can also be paired with tools like Tableau to visualize forecasted revenue trends for multiple deals, providing a clear and actionable view of financial projections. Overall, this stored procedure simplifies revenue forecasting for mergers and acquisitions, making it a valuable tool for financial planning and strategic decision-making.
 
-![image](https://github.com/user-attachments/assets/03cd13df-0be4-4fa0-bf5f-301a3037ad9d)
 
 
 #### Query 4:
