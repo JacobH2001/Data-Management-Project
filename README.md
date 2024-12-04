@@ -79,12 +79,17 @@
 ## Tableau Visualizations
 
 ### Visual 1
+#### This visualization is important because it provides a clear comparison between the actual and projected revenues for various mergers and acquisitions. By identifying gaps or consistencies between the two metrics, stakeholders can assess the performance of these deals and evaluate the accuracy of revenue forecasts. This helps in understanding which deals have exceeded or fallen short of expectations, enabling better decision-making for future investments and strategic planning.
+
 ![Visual1](https://github.com/user-attachments/assets/9fc7c910-6535-44c1-bf3f-8c2486ddb450)
 
 ### Visual 2
+#### This visualization highlights the Return on Investment (ROI) across various industries, providing a clear comparison of financial performance. By identifying which industries yield higher ROI, decision-makers can prioritize investments and allocate resources more effectively. For example, the chart shows that the Technology sector outperforms other industries in terms of ROI, making it a potential focus for future investments. This insight helps businesses and investors assess sector performance and strategize for maximum profitability.
+
 ![Visual 2](https://github.com/user-attachments/assets/3c322723-94d3-4a08-9fea-37574410fa67)
 
 ### Visual 3
+#### This visualization showcases the total deal value by headquarters (HQ) location, offering insights into the geographical distribution of mergers and acquisitions. It helps identify cities where companies are engaging in high-value deals, such as Miami and Detroit, which stand out as leaders in deal activity. This information is crucial for understanding regional economic activity and investment patterns, enabling businesses to evaluate which locations are most active and competitive for high-value transactions. It also supports strategic decision-making for expanding operations or targeting partnerships in high-performing areas.
 
 
 
