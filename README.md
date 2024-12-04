@@ -91,5 +91,8 @@
 ### Visual 3
 #### This visualization showcases the total deal value by headquarters (HQ) location, offering insights into the geographical distribution of mergers and acquisitions. It helps identify cities where companies are engaging in high-value deals, such as Miami and Detroit, which stand out as leaders in deal activity. This information is crucial for understanding regional economic activity and investment patterns, enabling businesses to evaluate which locations are most active and competitive for high-value transactions. It also supports strategic decision-making for expanding operations or targeting partnerships in high-performing areas.
 
+![image](https://github.com/user-attachments/assets/501b67e3-fdd7-4b95-914d-81b93294086c)
+
+
 
 
